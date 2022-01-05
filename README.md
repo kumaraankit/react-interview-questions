@@ -3,7 +3,7 @@
 
 1. What is react.
 
-    React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called      “components”. It lets you compose complex UIs from small and isolated pieces of code called “components”.
+    React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called      “components”.
 
 
 3. Explain the architecture of react.
