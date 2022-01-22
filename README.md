@@ -45,12 +45,14 @@
 5. What are the features of react.
 
     The different features of react are:
+    
      Virtual DOM
      One way data binding
      declarative code
      component based architecture
      Flexible
      Efficient
+     JSX
 7. What is the difference between react, angular and vue js.
 8. What does create-react-app do.
 9. Explain the folder structure of react app.
