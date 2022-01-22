@@ -43,72 +43,80 @@
 
 
 5. What are the features of react.
-6. What is the difference between react, angular and vue js.
-7. What does create-react-app do.
-8. Explain the folder structure of react app.
-9. What are components in react.
-10. Explain state.
-11. Why do we need state.
-12. What is props and its importance.
-13. What is class based component.
-14. Explain JSX and also the difference between JSX and normal html.
-15. What are the different rules for JSX.
-16. How exactly the react works.
-17. Explain functional component.
-18. What are the different ways through which destructuring of state and props is possible.
-19. Explain event handling in react with respect to class based and functional component.
-20. Why we prefer functional component over class based.
-21. Explain the difference between class based and functional based component.
-22. Why do we need to bind event handlers and in how many ways we can do it.
-23. How can we pass methods as props.
-24. How do we conditionally render react.
-25. Explain the usage of list rendering and use of map in react.
-26. Explain list as keys.
-27. How do we handle forms in react.
-28. Explain controlled or uncontrolled forms.
-29. Explain component life cycle methods and different phases.
-30. What are fragments and its different ways and also importance.
-31. What are pure components and its importance.
-32. Explain memo.
-33. Explain refs and its importance with applications.
-34. What is the use of forwarding refs.
-35. Why do we need portals.
-36. How do we handle react errors i.e error boundary.
-37. Explain HOC with small example.
-38. What are render props and its importance.
-39. Explain the importance of context.
-40. What is prop drilling.
-41. How do we handle the http request in react.
-42. What are reconcilliation.
-43. What are hooks and its associated rules.
-44. Why do we need hooks.
-45. Explain the use of useState and its syntax.
-46. Explain useState with array.
-47. Explain useState with objects.
-48. How useState works with the previous state.
-49. What are useEffect.
-50. Explain the working of useEffect.
-51. How can we run effects conditionally.
-52. Explain useEffects with cleanup.
-53. Explain useEffect with incorrect dependency.
-54. Explain data fetching in effects.
-55. Explain context hook and its importance.
-56. Why do we need useReducer.
-57. How to use multiple useReducers.
-58. Explain the data fetching in useReducer.
-59. What is the difference between useState and useReducer.
-60. Explain useCallback hook.
-61. Explain useMemo hook.
-62. Explain useRef hook.
-63. What are custom hooks and how can we implement them.
-64. Explain state immutability.
-65. How to optimize react.
-66. Explain the working of virtual dom and also figure out the differences from real dom.
-67. Why do we prefer virtual DOM.
-68. What are function creators.
-69.Explain action , types and reducer.
-70. Explain useHistory.
-71. Explain useLocation.
+
+    The different features of react are:
+     Virtual DOM
+     One way data binding
+     declarative code
+     component based architecture
+     Flexible
+     Efficient
+7. What is the difference between react, angular and vue js.
+8. What does create-react-app do.
+9. Explain the folder structure of react app.
+10. What are components in react.
+11. Explain state.
+12. Why do we need state.
+13. What is props and its importance.
+14. What is class based component.
+15. Explain JSX and also the difference between JSX and normal html.
+16. What are the different rules for JSX.
+17. How exactly the react works.
+18. Explain functional component.
+19. What are the different ways through which destructuring of state and props is possible.
+20. Explain event handling in react with respect to class based and functional component.
+21. Why we prefer functional component over class based.
+22. Explain the difference between class based and functional based component.
+23. Why do we need to bind event handlers and in how many ways we can do it.
+24. How can we pass methods as props.
+25. How do we conditionally render react.
+26. Explain the usage of list rendering and use of map in react.
+27. Explain list as keys.
+28. How do we handle forms in react.
+29. Explain controlled or uncontrolled forms.
+30. Explain component life cycle methods and different phases.
+31. What are fragments and its different ways and also importance.
+32. What are pure components and its importance.
+33. Explain memo.
+34. Explain refs and its importance with applications.
+35. What is the use of forwarding refs.
+36. Why do we need portals.
+37. How do we handle react errors i.e error boundary.
+38. Explain HOC with small example.
+39. What are render props and its importance.
+40. Explain the importance of context.
+41. What is prop drilling.
+42. How do we handle the http request in react.
+43. What are reconcilliation.
+44. What are hooks and its associated rules.
+45. Why do we need hooks.
+46. Explain the use of useState and its syntax.
+47. Explain useState with array.
+48. Explain useState with objects.
+49. How useState works with the previous state.
+50. What are useEffect.
+51. Explain the working of useEffect.
+52. How can we run effects conditionally.
+53. Explain useEffects with cleanup.
+54. Explain useEffect with incorrect dependency.
+55. Explain data fetching in effects.
+56. Explain context hook and its importance.
+57. Why do we need useReducer.
+58. How to use multiple useReducers.
+59. Explain the data fetching in useReducer.
+60. What is the difference between useState and useReducer.
+61. Explain useCallback hook.
+62. Explain useMemo hook.
+63. Explain useRef hook.
+64. What are custom hooks and how can we implement them.
+65. Explain state immutability.
+66. How to optimize react.
+67. Explain the working of virtual dom and also figure out the differences from real dom.
+68. Why do we prefer virtual DOM.
+69. What are function creators.
+70.Explain action , types and reducer.
+71. Explain useHistory.
+72. Explain useLocation.
 
 
 REDUX
