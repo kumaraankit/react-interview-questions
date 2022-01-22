@@ -12,7 +12,7 @@
     The word "imperative" here implies "commanding" the computer to do something. We have to directly tell the browser exactly how to do every little thing we need it to do. This     is "the old way", and it's what you do with vanilla JavaScript or something like jQuery.
 
 
-3. Explain the architecture of react.
+3. Explain the architecture of react and what does unidirectional data flow means in react.
 4. What are the features of react.
 5. What is the difference between react, angular and vue js.
 6. What does create-react-app do.
