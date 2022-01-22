@@ -78,6 +78,8 @@
 65. Why do we prefer virtual DOM.
 66. What are function creators.
 67.Explain action , types and reducer.
+68. Explain useHistory.
+69. Explain useLocation.
 
 
 REDUX
