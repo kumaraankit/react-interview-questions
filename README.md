@@ -6,38 +6,40 @@
     React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called      “components”.
     
 2. What do you mean by declarative in react.
+
     React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right             components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.
     
 3. What is the difference between imperative and declarative.
+
     The word "imperative" here implies "commanding" the computer to do something. We have to directly tell the browser exactly how to do every little thing we need it to do. This     is "the old way", and it's what you do with vanilla JavaScript or something like jQuery.
 
 
 3. Explain the architecture of react and what does unidirectional data flow means in react.
 
-Flux is a new kind of architecture that Facebook uses when it works with React.
-The core principles of React are (1) Flexibility, (2) Efficiency and (3) Declarative code
-Flux is open source and more of a design pattern than a formal framework and you can use it immediately. What keeps it apart from other frameworks is that it is different from the MVC Design pattern.
+    Flux is a new kind of architecture that Facebook uses when it works with React.
+    The core principles of React are (1) Flexibility, (2) Efficiency and (3) Declarative code
+    Flux is open source and more of a design pattern than a formal framework and you can use it immediately. What keeps it apart from other frameworks is that it is different       from the MVC Design pattern.
 
-Flux keeps code predictable when compared to other MVC frameworks.
-Flux boasts of a better-structured data flow – unidirectional. Being unidirectional is the central feature of Flux. The actions are propagated to the new system with regard to user interactions. 
-In a typical Flux architecture, you will find the following components:
+    Flux keeps code predictable when compared to other MVC frameworks.
+    Flux boasts of a better-structured data flow – unidirectional. Being unidirectional is the central feature of Flux. The actions are propagated to the new system with regard    to user interactions. 
+    In a typical Flux architecture, you will find the following components:
 
-**Actions** - Helpers that pass data to the Dispatcher.
+    **Actions** - Helpers that pass data to the Dispatcher.
 
-**Dispatcher** - Receives these Actions and broadcasts payloads to registered callbacks.
+    **Dispatcher** - Receives these Actions and broadcasts payloads to registered callbacks.
 
-**Stores** - Act as containers for application state and logic. The real work in the application is done in the Stores. The Stores are registered to listen in on the actions of the Dispatcher and update the Views according to these actions.
+    **Stores** - Act as containers for application state and logic. The real work in the application is done in the Stores. The Stores are registered to listen in on the actions       of the Dispatcher and update the Views according to these actions.
 
-**Controller** **Views** - React Components grab the state from the stores and then pass it down to the child components.
+    **Controller** **Views** - React Components grab the state from the stores and then pass it down to the child components.
 
-When an event happens, the Dispatcher would send the “payload” to the Store that is registered to listen for that particular action. Now it is up to the Store to update the View, which in turn triggers an action. The action to that will occur is also predetermined, like name, the type of action, and so on.
+    When an event happens, the Dispatcher would send the “payload” to the Store that is registered to listen for that particular action. Now it is up to the Store to update the     View, which in turn triggers an action. The action to that will occur is also predetermined, like name, the type of action, and so on.
 
-The View propagates the Action through a central Dispatcher and this will be sent to various Stores. These Stores contain an application’s business logic and other data.
+    The View propagates the Action through a central Dispatcher and this will be sent to various Stores. These Stores contain an application’s business logic and other data.
 
-This proves that the Flux pattern follows a unidirectional data flow. The Action, Dispatcher, Store, and View are independent nodes with specific inputs and outputs. The data flows through the Dispatcher, the central hub, which in turn manages all the data. The Dispatcher acts as a registry with registered callbacks that the Stores respond to. Stores will emit a change which will be picked by the Controller-Views.
+    This proves that the Flux pattern follows a unidirectional data flow. The Action, Dispatcher, Store, and View are independent nodes with specific inputs and outputs. The         data flows through the Dispatcher, the central hub, which in turn manages all the data. The Dispatcher acts as a registry with registered callbacks that the Stores respond       to. Stores will emit a change which will be picked by the Controller-Views.
 
-Refer for more details- 
-https://dzone.com/articles/a-detailed-study-of-flux-the-reactjs-application-a#:~:text=React%20%2D%20a%20popular%20front%2Dend,function%20hooks%20to%20render%20HTML.
+    Refer for more details- 
+    https://dzone.com/articles/a-detailed-study-of-flux-the-reactjs-application-a#:~:text=React%20%2D%20a%20popular%20front%2Dend,function%20hooks%20to%20render%20HTML.
 
 
 5. What are the features of react.
