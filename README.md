@@ -87,6 +87,12 @@
 29. How do we conditionally render react.
 30. Explain the usage of list rendering and use of map in react.
 31. Explain list as keys.
+
+    Key is a special string attribute we need to add while creating list of elements.
+    Keys gives the element a stable identity.
+    Keys helps react in indentifying which iitems have changes, added or removed and update accordingly to the dom.
+    Helps in the efficient update of the UI.
+
 32. How do we handle forms in react.
 33. Explain controlled or uncontrolled forms.
 34. Explain component life cycle methods and different phases.
