@@ -138,6 +138,7 @@
 74.Explain action , types and reducer.
 75. Explain useHistory.
 76. Explain useLocation.
+77. Which is the algorithm behind the virtual dom and actual dom comparison.
 
 
 REDUX
