@@ -145,6 +145,7 @@
 81. Does react uses multi threading or single threading concept?
 82. Create a counter example where number should never go negative.
 83. Create react app to demonstrate login and logout of an application.
+84. How do we pass data from parent to child component and vice-versa.
 
 
 REDUX
