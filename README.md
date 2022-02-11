@@ -139,6 +139,11 @@
 75. Explain useHistory.
 76. Explain useLocation.
 77. Which is the algorithm behind the virtual dom and actual dom comparison.
+78. CRUD operations using axios.
+79. Create Todo app with checkboxes.
+80. Explain how to fetch the data from external api.
+81. Does react uses multi threading or single threading concept?
+82. 
 
 
 REDUX
