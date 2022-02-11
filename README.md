@@ -143,7 +143,8 @@
 79. Create Todo app with checkboxes.
 80. Explain how to fetch the data from external api.
 81. Does react uses multi threading or single threading concept?
-82. 
+82. Create a counter example where number should never go negative.
+83. Create react app to demonstrate login and logout of an application.
 
 
 REDUX
