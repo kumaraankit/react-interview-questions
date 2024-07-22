@@ -146,6 +146,7 @@
 82. Create a counter example where number should never go negative.
 83. Create react app to demonstrate login and logout of an application.
 84. How do we pass data from parent to child component and vice-versa.
+85. When do you need curly braces while importing component.
 
 
 REDUX
